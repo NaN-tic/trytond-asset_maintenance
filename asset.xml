@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="asset_maintenance_view_form">
+            <field name="model">asset.maintenance</field>
+            <field name="type">form</field>
+            <field name="name">asset_maintenance_form</field>
+        </record>
+        <record model="ir.ui.view" id="asset_maintenance_view_list">
+            <field name="model">asset.maintenance</field>
+            <field name="type">tree</field>
+            <field name="name">asset_maintenance_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_asset_maintenance">
+            <field name="name">Maintenances</field>
+            <field name="res_model">asset.maintenance</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_maintenance_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset_maintenance_view_list"/>
+            <field name="act_window" ref="act_asset_maintenance"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_maintenance_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset_maintenance_view_form"/>
+            <field name="act_window" ref="act_asset_maintenance"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_maintenance">
+            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_maintenance_admin">
+            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="group" ref="asset.group_asset"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.ui.view" id="asset_maintenance_category_view_form">
+            <field name="model">asset.maintenance.category</field>
+            <field name="type">form</field>
+            <field name="name">asset_maintenance_category_form</field>
+        </record>
+        <record model="ir.ui.view" id="asset_maintenance_category_view_list">
+            <field name="model">asset.maintenance.category</field>
+            <field name="type">tree</field>
+            <field name="name">asset_maintenance_category_list</field>
+        </record>
+        <record model="ir.action.act_window" id="act_asset_maintenance_category">
+            <field name="name">Maintenance Categories</field>
+            <field name="res_model">asset.maintenance.category</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_maintenance_category_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset_maintenance_category_view_list"/>
+            <field name="act_window" ref="act_asset_maintenance_category"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_maintenance_category_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset_maintenance_category_view_form"/>
+            <field name="act_window" ref="act_asset_maintenance_category"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_maintenance_category">
+            <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_asset_maintenance_category_admin">
+            <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
+            <field name="group" ref="asset.group_asset"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.ui.view" id="asset_view_form">
+            <field name="model">asset</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="asset.asset_view_form"/>
+            <field name="name">asset_form</field>
+        </record>
+        <!-- Menus -->
+        <menuitem action="act_asset_maintenance_category" id="menu_asset_maintenance_category"
+            parent="asset.menu_configuration" sequence="20"/>
+
+        <record model="asset.maintenance.category" id="category_revision">
+            <field name="name">Revision</field>
+        </record>
+
+        <record model="asset.maintenance.category" id="category_repair">
+            <field name="name">Repair</field>
+        </record>
+
+    </data>
+</tryton>

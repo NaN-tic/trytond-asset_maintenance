@@ -1,0 +1,139 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:asset,mantineances:"
+msgid "Maintenances"
+msgstr "Mantenimentos"
+
+msgctxt "field:asset.maintenance,asset:"
+msgid "Asset"
+msgstr "Activo"
+
+msgctxt "field:asset.maintenance,category:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "field:asset.maintenance,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.maintenance,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.maintenance,date_done:"
+msgid "Done Date"
+msgstr "Fecha realización"
+
+msgctxt "field:asset.maintenance,date_next:"
+msgid "Next Maintenance"
+msgstr "Próximo mantenimento"
+
+msgctxt "field:asset.maintenance,date_planned:"
+msgid "Planned Date"
+msgstr "Fecha planificación"
+
+msgctxt "field:asset.maintenance,date_start:"
+msgid "Start Date"
+msgstr "Fecha inicio"
+
+msgctxt "field:asset.maintenance,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.maintenance,note:"
+msgid "Note"
+msgstr "Nota"
+
+msgctxt "field:asset.maintenance,party:"
+msgid "Workshop"
+msgstr "Taller"
+
+msgctxt "field:asset.maintenance,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.maintenance,reference:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:asset.maintenance,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.maintenance,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.maintenance.category,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.maintenance.category,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.maintenance.category,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.maintenance.category,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.maintenance.category,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.maintenance.category,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.maintenance.category,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:asset.maintenance,name:"
+msgid "Asset Maintenance"
+msgstr "Mantenimento de activos"
+
+msgctxt "model:asset.maintenance.category,name:"
+msgid "Asset Maintenance Category"
+msgstr "Categoria de mantenimento de activos"
+
+msgctxt "model:asset.maintenance.category,name:category_repair"
+msgid "Repair"
+msgstr "Reparación"
+
+msgctxt "model:asset.maintenance.category,name:category_revision"
+msgid "Revision"
+msgstr "Revisión"
+
+msgctxt "model:ir.action,name:act_asset_maintenance"
+msgid "Maintenances"
+msgstr "Mantenimentos"
+
+msgctxt "model:ir.action,name:act_asset_maintenance_category"
+msgid "Maintenance Categories"
+msgstr "Categorías mantenimento"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
+msgid "Maintenance Categories"
+msgstr "Categorías mantenimento"
+
+msgctxt "view:asset.maintenance.category:"
+msgid "Maintenance Categories"
+msgstr "Categorías mantenimento"
+
+msgctxt "view:asset.maintenance.category:"
+msgid "Maintenance Category"
+msgstr "Categoría mantenimento"
+
+msgctxt "view:asset.maintenance:"
+msgid "Asset Maintenance"
+msgstr "Mantenimento de activos"
+
+msgctxt "view:asset.maintenance:"
+msgid "Asset Maintenances"
+msgstr "Mantenimentos de activos"
