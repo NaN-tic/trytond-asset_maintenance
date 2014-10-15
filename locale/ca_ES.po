@@ -16,11 +16,11 @@ msgstr "Categoria"
 
 msgctxt "field:asset.maintenance,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.maintenance,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.maintenance,date_done:"
 msgid "Done Date"
@@ -40,7 +40,7 @@ msgstr "Data inici"
 
 msgctxt "field:asset.maintenance,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.maintenance,note:"
 msgid "Note"
@@ -68,15 +68,15 @@ msgstr "Usuari modificació"
 
 msgctxt "field:asset.maintenance.category,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:asset.maintenance.category,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:asset.maintenance.category,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:asset.maintenance.category,name:"
 msgid "Name"
