@@ -4,6 +4,10 @@
 <data>
     <xpath expr="/form/notebook" position="inside">
         <page name="mantineances">
+            <label name="maintenance_interval"/>
+            <field name="maintenance_interval"/>
+            <label name="maintenance_interval_number"/>
+            <field name="maintenance_interval_number"/>
             <field name="mantineances" colspan="4"/>
         </page>
     </xpath>

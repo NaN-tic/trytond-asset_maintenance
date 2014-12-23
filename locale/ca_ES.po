@@ -2,6 +2,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:asset,maintenance_interval:"
+msgid "Maintenance Interval"
+msgstr "Interval manteniment"
+
+msgctxt "field:asset,maintenance_interval_number:"
+msgid "Maintenance Interval Count"
+msgstr "Comptador d'interval de manteniment"
+
 msgctxt "field:asset,mantineances:"
 msgid "Maintenances"
 msgstr "Manteniments"
@@ -47,8 +55,8 @@ msgid "Note"
 msgstr "Nota"
 
 msgctxt "field:asset.maintenance,party:"
-msgid "Workshop"
-msgstr "Taller"
+msgid "Party"
+msgstr "Tercer"
 
 msgctxt "field:asset.maintenance,rec_name:"
 msgid "Name"
@@ -102,6 +110,14 @@ msgctxt "model:asset.maintenance.category,name:"
 msgid "Asset Maintenance Category"
 msgstr "Categoria de manteniments d'actius"
 
+msgctxt "model:asset.maintenance.category,name:None"
+msgid "Repair"
+msgstr "Reparació"
+
+msgctxt "model:asset.maintenance.category,name:None"
+msgid "Revision"
+msgstr "Revisió"
+
 msgctxt "model:asset.maintenance.category,name:category_repair"
 msgid "Repair"
 msgstr "Reparació"
@@ -118,9 +134,37 @@ msgctxt "model:ir.action,name:act_asset_maintenance_category"
 msgid "Maintenance Categories"
 msgstr "Categories manteniment"
 
+msgctxt "model:ir.action,name:act_maintenances_form"
+msgid "Maintenances"
+msgstr "Manteniments"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_maintenance"
+msgid "Maintenances"
+msgstr "Manteniments"
+
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
 msgid "Maintenance Categories"
 msgstr "Categories manteniment"
+
+msgctxt "selection:asset,maintenance_interval:"
+msgid "01 - Day"
+msgstr "01 - Diari"
+
+msgctxt "selection:asset,maintenance_interval:"
+msgid "02 - Week"
+msgstr "02 - Setmanal"
+
+msgctxt "selection:asset,maintenance_interval:"
+msgid "03 - Month"
+msgstr "03 - Mes"
+
+msgctxt "selection:asset,maintenance_interval:"
+msgid "04 - Year"
+msgstr "04 - Any"
+
+msgctxt "selection:asset,maintenance_interval:"
+msgid "Without Maintenance"
+msgstr "Sense manteniment"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Categories"
