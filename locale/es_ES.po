@@ -2,14 +2,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:asset,maintenance_interval:"
-msgid "Maintenance Interval"
-msgstr "Intervalo mantenimiento"
-
-msgctxt "field:asset,maintenance_interval_number:"
-msgid "Maintenance Interval Count"
-msgstr "Contador intervalo mantenimiento"
-
 msgctxt "field:asset,mantineances:"
 msgid "Maintenances"
 msgstr "Mantenimentos"
@@ -108,14 +100,6 @@ msgstr "Mantenimento de activos"
 
 msgctxt "model:asset.maintenance.category,name:"
 msgid "Asset Maintenance Category"
-msgstr "Categoria de mantenimento de activos"
-
-msgctxt "model:asset.maintenance.category,name:None"
-msgid "Repair"
-msgstr "Reparación"
-
-msgctxt "model:asset.maintenance.category,name:None"
-msgid "Revision"
 msgstr "Revisión"
 
 msgctxt "model:asset.maintenance.category,name:category_repair"
@@ -145,26 +129,6 @@ msgstr "Mantenimentos"
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
 msgid "Maintenance Categories"
 msgstr "Categorías mantenimento"
-
-msgctxt "selection:asset,maintenance_interval:"
-msgid "01 - Day"
-msgstr "01 - Diario"
-
-msgctxt "selection:asset,maintenance_interval:"
-msgid "02 - Week"
-msgstr "02 - Semanal"
-
-msgctxt "selection:asset,maintenance_interval:"
-msgid "03 - Month"
-msgstr "03 - Mes"
-
-msgctxt "selection:asset,maintenance_interval:"
-msgid "04 - Year"
-msgstr "04 - Año"
-
-msgctxt "selection:asset,maintenance_interval:"
-msgid "Without Maintenance"
-msgstr "Sin mantenimento"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Categories"
