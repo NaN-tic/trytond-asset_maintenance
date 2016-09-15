@@ -85,11 +85,12 @@
             <field name="inherit" ref="asset.asset_view_form"/>
             <field name="name">asset_form</field>
         </record>
+
         <!-- Menus -->
         <menuitem action="act_asset_maintenance_category" id="menu_asset_maintenance_category"
             parent="asset.menu_configuration" sequence="20"/>
         <menuitem action="act_asset_maintenance" id="menu_asset_maintenance"
-            parent="asset.menu_asset_form"/>
+            parent="asset.menu_asset"/>
 
         <record model="asset.maintenance.category" id="category_revision">
             <field name="name">Revision</field>
