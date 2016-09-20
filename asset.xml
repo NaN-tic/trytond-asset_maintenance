@@ -25,6 +25,7 @@
             <field name="view" ref="asset_maintenance_view_form"/>
             <field name="act_window" ref="act_asset_maintenance"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_maintenance">
             <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
             <field name="perm_read" eval="True"/>
@@ -40,6 +41,18 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <record model="ir.rule.group" id="rule_group_asset">
+            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_asset1">
+            <field name="domain"
+                eval="[('company', '=', Eval('user', {}).get('company', None))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_asset"/>
+        </record>
+
         <record model="ir.ui.view" id="asset_maintenance_category_view_form">
             <field name="model">asset.maintenance.category</field>
             <field name="type">form</field>
@@ -64,6 +77,7 @@
             <field name="view" ref="asset_maintenance_category_view_form"/>
             <field name="act_window" ref="act_asset_maintenance_category"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_maintenance_category">
             <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
             <field name="perm_read" eval="True"/>

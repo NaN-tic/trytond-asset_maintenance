@@ -35,6 +35,8 @@ class Maintenance(ModelSQL, ModelView):
     party = fields.Many2One('party.party', 'Party')
     reference = fields.Reference('Reference', selection='get_reference',
         select=True)
+    company = fields.Function(fields.Many2One('company.company', 'Company'),
+        'on_change_with_company', searcher='search_company')
 
     @staticmethod
     def _get_reference():
@@ -50,3 +52,12 @@ class Maintenance(ModelSQL, ModelView):
                 ('model', 'in', models),
                 ])
         return [(None, '')] + [(m.model, m.name) for m in models]
+
+    @fields.depends('asset')
+    def on_change_with_company(self, name=None):
+        if self.asset and self.asset.company:
+            return self.asset.company.id
+
+    @classmethod
+    def search_company(cls, name, clause):
+        return [('asset.%s' % name,) + tuple(clause[1:])]
