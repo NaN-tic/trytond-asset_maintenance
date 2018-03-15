@@ -14,10 +14,8 @@
     <field name="date_start"/>
     <label name="date_done"/>
     <field name="date_done"/>
-    <label name="date_next"/>
-    <field name="date_next"/>
-    <label name="reference"/>
-    <field name="reference"/>
     <separator name="note" colspan="4"/>
     <field name="note" colspan="4"/>
+    <label name="state"/>
+    <field name="state"/>
 </form>
