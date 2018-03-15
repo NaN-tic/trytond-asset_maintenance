@@ -83,7 +83,7 @@
             <field name="view" ref="asset_maintenance_category_view_form"/>
             <field name="act_window" ref="act_asset_maintenance_category"/>
         </record>
-        <record model="ir.model.access" id="access_asset_maintenance">
+        <record model="ir.model.access" id="access_asset_maintenance_category">
             <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
