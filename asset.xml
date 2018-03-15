@@ -111,6 +111,18 @@
             <field name="inherit" ref="asset.asset_view_form"/>
             <field name="name">asset_form</field>
         </record>
+
+        <record model="ir.rule.group" id="rule_group_asset_maintenance">
+            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_asset_maintenance1">
+            <field name="domain"
+                eval="[('asset.company', '=', Eval('user', {}).get('company', None))]"
+                pyson="1"/>
+            <field name="rule_group" ref="rule_group_asset_maintenance"/>
+        </record>
+
         <!-- Menus -->
         <menuitem action="act_asset_maintenance_category" id="menu_asset_maintenance_category"
             parent="asset.menu_configuration" sequence="20"/>
