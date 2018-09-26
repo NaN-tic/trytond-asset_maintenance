@@ -13,9 +13,8 @@ class Category(ModelSQL, ModelView):
     name = fields.Char('Name', required=True)
 
 
-class Asset:
+class Asset(metaclass=PoolMeta):
     __name__ = 'asset'
-    __metaclass__ = PoolMeta
     maintenances = fields.One2Many('asset.maintenance', 'asset',
         'Maintenances')
 
