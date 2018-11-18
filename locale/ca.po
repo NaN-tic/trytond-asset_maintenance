@@ -1,6 +1,10 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:asset,maintenances:"
+msgid "Maintenances"
+msgstr "Manteniments"
 
 msgctxt "field:asset,mantineances:"
 msgid "Maintenances"
@@ -51,12 +55,16 @@ msgid "Party"
 msgstr "Tercer"
 
 msgctxt "field:asset.maintenance,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nom"
 
 msgctxt "field:asset.maintenance,reference:"
 msgid "Reference"
 msgstr "Referència"
+
+msgctxt "field:asset.maintenance,state:"
+msgid "State"
+msgstr "Estat"
 
 msgctxt "field:asset.maintenance,write_date:"
 msgid "Write Date"
@@ -83,7 +91,7 @@ msgid "Name"
 msgstr "Nom"
 
 msgctxt "field:asset.maintenance.category,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nom"
 
 msgctxt "field:asset.maintenance.category,write_date:"
@@ -100,15 +108,7 @@ msgstr "Manteniment d'actius"
 
 msgctxt "model:asset.maintenance.category,name:"
 msgid "Asset Maintenance Category"
-msgstr "Revisió"
-
-msgctxt "model:asset.maintenance.category,name:category_repair"
-msgid "Repair"
-msgstr "Reparació"
-
-msgctxt "model:asset.maintenance.category,name:category_revision"
-msgid "Revision"
-msgstr "Revisió"
+msgstr ""
 
 msgctxt "model:ir.action,name:act_asset_maintenance"
 msgid "Maintenances"
@@ -122,6 +122,23 @@ msgctxt "model:ir.action,name:act_maintenances_form"
 msgid "Maintenances"
 msgstr "Manteniments"
 
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_asset_maintenance_all_domain"
+msgid "All"
+msgstr "Tots"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_asset_maintenance_inprogress_domain"
+msgid "In Progress"
+msgstr ""
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_asset_maintenance_planned_domain"
+msgid "Planned"
+msgstr "Planificat"
+
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance"
 msgid "Maintenances"
 msgstr "Manteniments"
@@ -129,6 +146,18 @@ msgstr "Manteniments"
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
 msgid "Maintenance Categories"
 msgstr "Categories manteniment"
+
+msgctxt "selection:asset.maintenance,state:"
+msgid "Done"
+msgstr "Realitzat"
+
+msgctxt "selection:asset.maintenance,state:"
+msgid "In Progress"
+msgstr ""
+
+msgctxt "selection:asset.maintenance,state:"
+msgid "Planned"
+msgstr "Planificat"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Categories"
