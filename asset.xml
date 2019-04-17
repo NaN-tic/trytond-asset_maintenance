@@ -113,6 +113,7 @@
         </record>
 
         <record model="ir.rule.group" id="rule_group_asset_maintenance">
+            <field name="name">Asset Maintenance Company Group</field>
             <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
             <field name="global_p" eval="True"/>
         </record>
