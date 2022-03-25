@@ -119,7 +119,7 @@
         </record>
         <record model="ir.rule" id="rule_asset_maintenance1">
             <field name="domain"
-                eval="[('asset.company', '=', Eval('user', {}).get('company', None))]"
+                eval="[('asset.company', 'in', Eval('companies', []))]"
                 pyson="1"/>
             <field name="rule_group" ref="rule_group_asset_maintenance"/>
         </record>
