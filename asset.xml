@@ -44,14 +44,14 @@
             <field name="domain"></field>
         </record>
         <record model="ir.model.access" id="access_asset_maintenance">
-            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="model">asset.maintenance</field>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_asset_maintenance_asset">
-            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="model">asset.maintenance</field>
             <field name="group" ref="asset.group_asset"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
@@ -84,14 +84,14 @@
             <field name="act_window" ref="act_asset_maintenance_category"/>
         </record>
         <record model="ir.model.access" id="access_asset_maintenance_category">
-            <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
+            <field name="model">asset.maintenance.category</field>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_asset_maintenance_category_asset">
-            <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
+            <field name="model">asset.maintenance.category</field>
             <field name="group" ref="asset.group_asset"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
@@ -99,7 +99,7 @@
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_asset_maintenance_category_admin">
-            <field name="model" search="[('model', '=', 'asset.maintenance.category')]"/>
+            <field name="model">asset.maintenance.category</field>
             <field name="group" ref="asset.group_asset_admin"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
@@ -114,7 +114,7 @@
 
         <record model="ir.rule.group" id="rule_group_asset_maintenance">
             <field name="name">Asset Maintenance Company Group</field>
-            <field name="model" search="[('model', '=', 'asset.maintenance')]"/>
+            <field name="model">asset.maintenance</field>
             <field name="global_p" eval="True"/>
         </record>
         <record model="ir.rule" id="rule_asset_maintenance1">
