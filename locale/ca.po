@@ -20,15 +20,15 @@ msgstr "Categoria"
 
 msgctxt "field:asset.maintenance,create_date:"
 msgid "Create Date"
-msgstr "Data creació"
+msgstr "Data de creació"
 
 msgctxt "field:asset.maintenance,create_uid:"
 msgid "Create User"
-msgstr "Usuari creació"
+msgstr "Usuari de creació"
 
 msgctxt "field:asset.maintenance,date_done:"
 msgid "Done Date"
-msgstr "Data realizació"
+msgstr "Data de realització"
 
 msgctxt "field:asset.maintenance,date_next:"
 msgid "Next Maintenance"
@@ -40,7 +40,7 @@ msgstr "Data planificada"
 
 msgctxt "field:asset.maintenance,date_start:"
 msgid "Start Date"
-msgstr "Data inici"
+msgstr "Data d'inici"
 
 msgctxt "field:asset.maintenance,id:"
 msgid "ID"
@@ -68,19 +68,19 @@ msgstr "Estat"
 
 msgctxt "field:asset.maintenance,write_date:"
 msgid "Write Date"
-msgstr "Data modificació"
+msgstr "Data de modificació"
 
 msgctxt "field:asset.maintenance,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "field:asset.maintenance.category,create_date:"
 msgid "Create Date"
-msgstr "Data creació"
+msgstr "Data de creació"
 
 msgctxt "field:asset.maintenance.category,create_uid:"
 msgid "Create User"
-msgstr "Usuari creació"
+msgstr "Usuari de creació"
 
 msgctxt "field:asset.maintenance.category,id:"
 msgid "ID"
@@ -96,11 +96,11 @@ msgstr "Nom"
 
 msgctxt "field:asset.maintenance.category,write_date:"
 msgid "Write Date"
-msgstr "Data modificació"
+msgstr "Data de modificació"
 
 msgctxt "field:asset.maintenance.category,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "model:asset.maintenance,name:"
 msgid "Asset Maintenance"
@@ -108,7 +108,7 @@ msgstr "Manteniment d'actius"
 
 msgctxt "model:asset.maintenance.category,name:"
 msgid "Asset Maintenance Category"
-msgstr ""
+msgstr "Categoria de manteniment d'actius"
 
 msgctxt "model:ir.action,name:act_asset_maintenance"
 msgid "Maintenances"
@@ -116,13 +116,12 @@ msgstr "Manteniments"
 
 msgctxt "model:ir.action,name:act_asset_maintenance_category"
 msgid "Maintenance Categories"
-msgstr "Categories manteniment"
+msgstr "Categories de manteniment"
 
 msgctxt "model:ir.action,name:act_maintenances_form"
 msgid "Maintenances"
 msgstr "Manteniments"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_all_domain"
 msgid "All"
@@ -131,13 +130,16 @@ msgstr "Tots"
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_inprogress_domain"
 msgid "In Progress"
-msgstr ""
+msgstr "En curs"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_planned_domain"
 msgid "Planned"
 msgstr "Planificat"
+
+msgctxt "model:ir.rule.group,name:rule_group_asset_maintenance"
+msgid "Asset Maintenance Company Group"
+msgstr "Grup d'empreses de manteniment d'actius"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance"
 msgid "Maintenances"
@@ -145,7 +147,7 @@ msgstr "Manteniments"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
 msgid "Maintenance Categories"
-msgstr "Categories manteniment"
+msgstr "Categories de manteniment"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "Done"
@@ -153,7 +155,7 @@ msgstr "Realitzat"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "In Progress"
-msgstr ""
+msgstr "En curs"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "Planned"
@@ -161,11 +163,11 @@ msgstr "Planificat"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Categories"
-msgstr "Categories manteniment"
+msgstr "Categories de manteniment"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Category"
-msgstr "Categoria manteniment"
+msgstr "Categoria de manteniment"
 
 msgctxt "view:asset.maintenance:"
 msgid "Asset Maintenance"
