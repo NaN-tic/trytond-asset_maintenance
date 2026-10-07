@@ -4,11 +4,11 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "field:asset,maintenances:"
 msgid "Maintenances"
-msgstr "Mantenimentos"
+msgstr "Mantenimientos"
 
 msgctxt "field:asset,mantineances:"
 msgid "Maintenances"
-msgstr "Mantenimentos"
+msgstr "Mantenimientos"
 
 msgctxt "field:asset.maintenance,asset:"
 msgid "Asset"
@@ -20,27 +20,27 @@ msgstr "Categoría"
 
 msgctxt "field:asset.maintenance,create_date:"
 msgid "Create Date"
-msgstr "Fecha creación"
+msgstr "Fecha de creación"
 
 msgctxt "field:asset.maintenance,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:asset.maintenance,date_done:"
 msgid "Done Date"
-msgstr "Fecha realización"
+msgstr "Fecha de realización"
 
 msgctxt "field:asset.maintenance,date_next:"
 msgid "Next Maintenance"
-msgstr "Próximo mantenimento"
+msgstr "Próximo mantenimiento"
 
 msgctxt "field:asset.maintenance,date_planned:"
 msgid "Planned Date"
-msgstr "Fecha planificación"
+msgstr "Fecha planificada"
 
 msgctxt "field:asset.maintenance,date_start:"
 msgid "Start Date"
-msgstr "Fecha inicio"
+msgstr "Fecha de inicio"
 
 msgctxt "field:asset.maintenance,id:"
 msgid "ID"
@@ -68,11 +68,11 @@ msgstr "Estado"
 
 msgctxt "field:asset.maintenance,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:asset.maintenance,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "field:asset.maintenance.category,create_date:"
 msgid "Create Date"
@@ -80,7 +80,7 @@ msgstr "Fecha de creación"
 
 msgctxt "field:asset.maintenance.category,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:asset.maintenance.category,id:"
 msgid "ID"
@@ -96,56 +96,58 @@ msgstr "Nombre"
 
 msgctxt "field:asset.maintenance.category,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:asset.maintenance.category,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "model:asset.maintenance,name:"
 msgid "Asset Maintenance"
-msgstr "Mantenimento de activos"
+msgstr "Mantenimiento de activos"
 
 msgctxt "model:asset.maintenance.category,name:"
 msgid "Asset Maintenance Category"
-msgstr "Revisión"
+msgstr "Categoría de mantenimiento de activos"
 
 msgctxt "model:ir.action,name:act_asset_maintenance"
 msgid "Maintenances"
-msgstr "Mantenimentos"
+msgstr "Mantenimientos"
 
 msgctxt "model:ir.action,name:act_asset_maintenance_category"
 msgid "Maintenance Categories"
-msgstr "Categorías mantenimento"
+msgstr "Categorías de mantenimiento"
 
 msgctxt "model:ir.action,name:act_maintenances_form"
 msgid "Maintenances"
-msgstr "Mantenimentos"
+msgstr "Mantenimientos"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_all_domain"
 msgid "All"
-msgstr "Tot"
+msgstr "Todos"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_inprogress_domain"
 msgid "In Progress"
-msgstr ""
+msgstr "En curso"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_asset_maintenance_planned_domain"
 msgid "Planned"
 msgstr "Planificado"
 
+msgctxt "model:ir.rule.group,name:rule_group_asset_maintenance"
+msgid "Asset Maintenance Company Group"
+msgstr "Grupo de empresas de mantenimiento de activos"
+
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance"
 msgid "Maintenances"
-msgstr "Mantenimentos"
+msgstr "Mantenimientos"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_maintenance_category"
 msgid "Maintenance Categories"
-msgstr "Categorías mantenimento"
+msgstr "Categorías de mantenimiento"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "Done"
@@ -153,7 +155,7 @@ msgstr "Realizado"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "In Progress"
-msgstr ""
+msgstr "En curso"
 
 msgctxt "selection:asset.maintenance,state:"
 msgid "Planned"
@@ -161,16 +163,16 @@ msgstr "Planificado"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Categories"
-msgstr "Categorías mantenimento"
+msgstr "Categorías de mantenimiento"
 
 msgctxt "view:asset.maintenance.category:"
 msgid "Maintenance Category"
-msgstr "Categoría mantenimento"
+msgstr "Categoría de mantenimiento"
 
 msgctxt "view:asset.maintenance:"
 msgid "Asset Maintenance"
-msgstr "Mantenimento de activos"
+msgstr "Mantenimiento de activos"
 
 msgctxt "view:asset.maintenance:"
 msgid "Asset Maintenances"
-msgstr "Mantenimentos de activos"
+msgstr "Mantenimientos de activos"
